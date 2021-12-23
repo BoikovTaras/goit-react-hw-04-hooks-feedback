@@ -1,53 +1,54 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 
 import s from './components/Feedback/Feedback.module.css';
 
-import Statistic from './components/Statistic/Statistic';
+// import Statistic from './components/Statistic/Statistic';
 import Feedback from './components/Feedback/Feedback';
-import Section from './components/Section/Section';
+// import Section from './components/Section/Section';
 
-// export default function getFeedback() {
+// export default function GetFeedback() {
 //   const [good, setGood] = useState('');
-//   const [neutral, setNeutral] = useState('');
-//   const [bad, setBad] = useState('');
+// //   const [neutral, setNeutral] = useState('');
+// //   const [bad, setBad] = useState('');
 
-//   incrementHandler = feedback => {
-//     this.setState(prevState => ({
-//       [feedback]: prevState[feedback] + 1,
-//     }));
-//   };
+// //     const incrementHandler = value => {
+// //         reurn(`set${value}(${value} + 1)`);
+// //     // this.setState(prevState => ({
+// //     //   [feedback]: prevState[feedback] + 1,
+// //     // }));
+// //   };
 
-//   getTotafFeedback = () => {
-//     const totalFeedback = Object.keys(this.state).reduce(
-//       (acc, value) => acc + this.state[value],
-//       0,
-//     );
-//     return totalFeedback;
-//   };
+// //   getTotafFeedback = () => {
+// //     const totalFeedback = Object.keys(this.state).reduce(
+// //       (acc, value) => acc + this.state[value],
+// //       0,
+// //     );
+// //     return totalFeedback;
+// //   };
 
-//   positiveFeedbackPercentage = () => {
-//     const percent = Math.round(
-//       (this.state.good * 100) / this.getTotafFeedback(),
-//     );
-//     return percent;
-//   };
+// //   positiveFeedbackPercentage = () => {
+// //     const percent = Math.round(
+// //       (this.state.good * 100) / this.getTotafFeedback(),
+// //     );
+// //     return percent;
+// //   };
 
 //   return (
 //     <div className={s.container}>
-//       <Section title="Please leave feedback" />
+//       {/* <Section title="Please leave feedback" /> */}
 //       <Feedback
 //         option={['good', 'neutral', 'bad']}
-//         onIncrement={this.incrementHandler}
+//         onIncrement={incrementHandler}
 //       />
-//       <Section title="Statistics" />
-//       <Statistic
+//       {/* <Section title="Statistics" /> */}
+//       {/* <Statistic
 //         good={good}
 //         neutral={neutral}
 //         bad={bad}
 //         total={this.getTotafFeedback}
 //         percent={this.positiveFeedbackPercentage}
-//       />
+//       /> */}
 //     </div>
 //   );
 // }
